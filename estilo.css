@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Poppins:wght@100;200;300;400;500&family=Roboto+Mono&family=Tilt+Prism&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #06d47e;
+}
+
+.logo{
+    width: 43px;
+    height: 43px;
+    border-radius: 80px;
+    margin: 10px;
+}
+
+#links{
+    font-family: 'Roboto Mono', monospace;
+    margin: 25px;
+    padding-left: 2rem;
+    color: white;
+}
+
+.sublink{
+    color: white;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+h1{
+    padding-top: 265px;
+    padding-left: 400px;
+    font-size: 55px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    
+    color: black;
+    padding-top: 205px;
+}
+
+body{
+    background-color: #c8ff87;
+
+}
+
+.texto{
+    padding-top: 265px;
+    padding-left: 400px;
+    font-size: 55px;
+    font-family: 'Titan One', cursive;
+    color: dodgerblue;
+}
+
+.btn{
+    margin-left: 540px;
+    padding: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 5px;
+    border: #096eb5 2px solid;
+    background-color: #096eb5;
+    font-size: 20px;
+    align-items: center;
+    color: #000;
+}
+
+.but{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: navy;
+}
